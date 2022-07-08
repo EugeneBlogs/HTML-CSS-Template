@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Oswald:wght@400;500;700&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <title>СТУДИЯ РАЗРАБОТКИ ИГР И ПРОГРАММ EBC</title>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            var sidenav = document.querySelectorAll('.sidenav');
+            var instances_sidenav = M.Sidenav.init(sidenav);
+            var modal = document.querySelectorAll('.modal');
+            var instances_modal = M.Modal.init(modal);
+        });
+    </script>
+</head>
+
+<body>
+    <ul id="slide-out" class="sidenav">
+        <li><a><i class="material-icons">search</i>Меню:</a></li>
+        <li>
+            <div class="divider"></div>
+        </li>
+        <li><a href="#header"><i class="material-icons">art_track</i>Шапка</a></li>
+        <li><a href="#about"><i class="material-icons">assessment</i>Статистика & Наша команда</a></li>
+        <li><a href="#request_1"><i class="material-icons">file_upload</i>Ваш запрос</a></li>
+        <li><a href="#services"><i class="material-icons">build</i>Что мы умеем?</a></li>
+        <li><a href="#portfolio"><i class="material-icons">contacts</i>Наше портфолио</a></li>
+        <li><a href="#question"><i class="material-icons">tag_faces</i>Вопрос-Ответ</a></li>
+        <li><a href="#partners"><i class="material-icons">attach_money</i>Наши спонсоры</a></li>
+        <li><a href="#fidback"><i class="material-icons">chat</i>Отзывы о нас</a></li>
+        <li><a href="#request_2"><i class="material-icons">file_upload</i>Ваш запрос</a></li>
+        <li><a href="#contacts"><i class="material-icons">phone</i>Контакты</a></li>
+        <li><a href="#footer"><i class="material-icons">keyboard_arrow_down</i>Подвал</a></li>
+        <li>
+            <div class="divider"></div>
+        </li>
+        <li><a href="#!" class="sidenav-close"><i class="material-icons">close</i>Закрыть меню</a></li>
+    </ul>
+    <header class="header" id="header">
+        <div class="container">
+            <div class="header__title">
+                <img src="img/logo.PNG" alt="Логотип" class="logo">
+                <a data-target="slide-out" class="burger sidenav-trigger">
+                    <span class="burger__line"></span>
+                    <span class="burger__line"></span>
+                    <span class="burger__line"></span>
+                </a>
+            </div>
+            <h1 class="h1">Заголовок</h1>
+            <h4 class="h4">Описание</h4>
+        </div>
+    </header>
+    <section class="about" id="about">
+        <div class="info">
+            <div class="container">
+                <div class="about__grid">
+                    <div class="about__grid-item">
+                        <h4 class="about__h4 purecounter" data-purecounter-start="0" data-purecounter-end="100"
+                            data-purecounter-duration="1">0</h4>
+                        <h5 class="about__h5">текст</h5>
+                        <p class="about__p">текст</p>
+                    </div>
+                    <div class="about__grid-item">
+                        <h4 class="about__h4 purecounter" data-purecounter-start="0" data-purecounter-end="50"
+                            data-purecounter-duration="1">0</h4>
+                        <h5 class="about__h5">текст</h5>
+                        <p class="about__p">текст</p>
+                    </div>
+                    <div class="about__grid-item">
+                        <h4 class="about__h4 purecounter" data-purecounter-start="0" data-purecounter-end="30"
+                            data-purecounter-duration="1">0</h4>
+                        <h5 class="about__h5">текст</h5>
+                        <p class="about__p">текст</p>
+                    </div>
+                    <div class="about__grid-item">
+                        <h4 class="about__h4 purecounter" data-purecounter-start="0" data-purecounter-end="10"
+                            data-purecounter-duration="1">0</h4>
+                        <h5 class="about__h5">текст</h5>
+                        <p class="about__p">текст</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <h2 class="text-h2 project-h2">Наша команда:</h2>
+            <div class="about__flex">
+                <div class="about__flex-item">
+                    <img class="project-img" src="img/Фото.jpeg" alt="Фото">
+                    <div class="rectangle"></div>
+                    <h3 class="text-h3 project-h3">Заголовок</h3>
+                    <p class="text-p project-p">Описание</p>
+                </div>
+                <div class="about__flex-item">
+                    <img class="project-img" src="img/Фото.jpeg" alt="Фото">
+                    <div class="rectangle"></div>
+                    <h3 class="text-h3 project-h3">Заголовок</h3>
+                    <p class="text-p project-p">Описание</p>
+                </div>
+                <div class="about__flex-item">
+                    <img class="project-img" src="img/Фото.jpeg" alt="Фото">
+                    <div class="rectangle"></div>
+                    <h3 class="text-h3 project-h3">Заголовок</h3>
+                    <p class="text-p project-p">Описание</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="request" id="request_1">
+        <div class="container">
+            <div class="request__flex">
+                <div class="request__flex-left">
+                    <h4 class="request__h4">Текст</h4>
+                    <h5 class="request-h5">Текст</h5>
+                </div>
+                <div class="request__flex-right">
+                    <a class="request_btn modal-trigger" href="#modal">
+                        <img class="request__icon" src="img/message.ico" alt="Почта">
+                        Текст
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="services" id="services">
+        <div class="container">
+            <h2 class="text-h2 section-h2">Что мы умеем?</h2>
+            <div class="services__grid">
+                <div class="services__grid-item">
+                    <img class="services__icon" src="img/tag.png" alt="Тэг">
+                    <h4 class="text-h4 services__h4">Текст</h4>
+                </div>
+                <div class="services__grid-item">
+                    <img class="services__icon" src="img/tag.png" alt="Тэг">
+                    <h4 class="text-h4 services__h4">Текст</h4>
+                </div>
+                <div class="services__grid-item">
+                    <img class="services__icon" src="img/tag.png" alt="Тэг">
+                    <h4 class="text-h4 services__h4">Текст</h4>
+                </div>
+                <div class="services__grid-item">
+                    <img class="services__icon" src="img/tag.png" alt="Тэг">
+                    <h4 class="text-h4 services__h4">Текст</h4>
+                </div>
+                <div class="services__grid-item">
+                    <img class="services__icon" src="img/tag.png" alt="Тэг">
+                    <h4 class="text-h4 services__h4">Текст</h4>
+                </div>
+                <div class="services__grid-item">
+                    <img class="services__icon" src="img/tag.png" alt="Тэг">
+                    <h4 class="text-h4 services__h4">Текст</h4>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="portfolio" id="portfolio">
+        <div class="portfolio__grid">
+            <div class="portfolio__grid-item">
+                <img src="img/Фото.jpeg" alt="Фото" class="portfolio__img" title="Фото">
+            </div>
+            <div class="portfolio__grid-item">
+                <img src="img/Фото.jpeg" alt="Фото" class="portfolio__img" title="Фото">
+            </div>
+            <div class="portfolio__grid-item">
+                <img src="img/Фото.jpeg" alt="Фото" class="portfolio__img" title="Фото">
+            </div>
+            <div class="portfolio__grid-item">
+                <img src="img/Фото.jpeg" alt="Фото" class="portfolio__img" title="Фото">
+            </div>
+            <div class="portfolio__grid-item">
+                <img src="img/Фото.jpeg" alt="Фото" class="portfolio__img" title="Фото">
+            </div>
+            <div class="portfolio__grid-item">
+                <img src="img/Фото.jpeg" alt="Фото" class="portfolio__img" title="Фото">
+            </div>
+            <div class="portfolio__grid-item">
+                <img src="img/Фото.jpeg" alt="Фото" class="portfolio__img" title="Фото">
+            </div>
+            <div class="portfolio__grid-item">
+                <img src="img/Фото.jpeg" alt="Фото" class="portfolio__img" title="Фото">
+            </div>
+        </div>
+    </section>
+    <section class="question" id="question">
+        <div class="container">
+            <h2 class="text-h2 section__h2">Вопрос-ответ:</h2>
+            <div class="question_items">
+                <details class="question_item">
+                    <summary class="text-h3 question_h3">Заголовок</summary>
+                    <p class="text-p question_p">Описание</p>
+                </details>
+                <details class="question_item">
+                    <summary class="text-h3 question_h3">Заголовок</summary>
+                    <p class="text-p question_p">Описание</p>
+                </details>
+                <details class="question_item">
+                    <summary class="text-h3 question_h3">Заголовок</summary>
+                    <p class="text-p question_p">Описание</p>
+                </details>
+            </div>
+        </div>
+    </section>
+    <section class="partners" id="partners">
+        <div class="container">
+            <h2 class="text-h2 section-h2 partners-h2">Наши спонсоры:</h2>
+            <div class="partners__grid">
+                <div class="partners__grid-item">
+                    <img src="img/Сбер.png" alt="Сбер" class="partners__img">
+                </div>
+                <div class="partners__grid-item">
+                    <img src="img/Сбер.png" alt="Сбер" class="partners__img">
+                </div>
+                <div class="partners__grid-item">
+                    <img src="img/Сбер.png" alt="Сбер" class="partners__img">
+                </div>
+                <div class="partners__grid-item">
+                    <img src="img/Сбер.png" alt="Сбер" class="partners__img">
+                </div>
+                <div class="partners__grid-item">
+                    <img src="img/Сбер.png" alt="Сбер" class="partners__img">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="fidback" id="fidback">
+        <div class="container">
+            <h2 class="text-h2 section-h2">Отзывы о нас:</h2>
+            <div class="fidback__grid">
+                <div class="fidback__grid-item">
+                    <div class="fidback-information">
+                        <img class="fidback__icon" src="img/citata.svg" alt="Цитата">
+                        <p class="fidback-p">Текст</p>
+                    </div>
+                    <h4 class="fidback-h4">Имя, <span class="fidback-span">“Компания”</span></h4>
+                </div>
+                <div class="fidback__grid-item">
+                    <div class="fidback-information">
+                        <img class="fidback__icon" src="img/citata.svg" alt="Цитата">
+                        <p class="fidback-p">Текст</p>
+                    </div>
+                    <h4 class="fidback-h4">Имя, <span class="fidback-span">“Компания”</span></h4>
+                </div>
+                <div class="fidback__grid-item">
+                    <div class="fidback-information">
+                        <img class="fidback__icon" src="img/citata.svg" alt="Цитата">
+                        <p class="fidback-p">Текст</p>
+                    </div>
+                    <h4 class="fidback-h4">Имя, <span class="fidback-span">“Компания”</span></h4>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="request" id="request_2">
+        <div class="container">
+            <div class="request__flex">
+                <div class="request__flex-left">
+                    <h4 class="request__h4">Текст</h4>
+                    <h5 class="request-h5">Текст</h5>
+                </div>
+                <div class="request__flex-right">
+                    <a class="request_btn modal-trigger" href="#modal">
+                        <img class="request__icon" src="img/message.ico" alt="Почта">
+                        Текст
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="contacts" id="contacts">
+        <div class="container">
+            <h2 class="text-h2 section-h2">Контакты:</h2>
+            <div class="contacts__grid">
+                <div class="contacts__grid-item">
+                    <img class="contacts__icon" src="img/addres.svg" alt="Адрес">
+                    <h3 class="text-h3 contacts-h3-label">Адрес:</h3>
+                    <a href="https://yandex.ru/maps/" target="_blank"
+                        class="a_phone text-h3 contacts-h3-exclusive">Текст</a>
+                </div>
+                <div class="contacts__grid-item">
+                    <img class="contacts__icon" src="img/phone.svg" alt="Телефон">
+                    <h3 class="text-h3 contacts-h3-label">Телефон:</h3>
+                    <h3 class="text-h3 contacts-h3-info"><a href="tel:+78005553535"
+                            class="a_phone">8-(800)-555-35-35</a> - Имя</h3>
+                </div>
+                <div class="contacts__grid-item">
+                    <img class="contacts__icon" src="img/time.svg" alt="Время работы">
+                    <h3 class="text-h3 contacts-h3-label">Время работы:</h3>
+                    <h3 class="text-h3 contacts-h3-info">ПН-ВС</h3>
+                    <h3 class="text-h3 contacts-h3-info">00:00-00:00</h3>
+                </div>
+                <div class="contacts__grid-item">
+                    <img class="contacts__icon" src="img/mail.svg" alt="Почта">
+                    <h3 class="text-h3 contacts-h3-label">Почта:</h3>
+                    <a href="mailto:example@mail.ru" class="a_phone text-h3 contacts-h3-exclusive">example@mail.ru</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer" id="footer">
+        <div class="container">
+            <div class="footer__flex">
+                <div class="footer__flex-left">
+                    <p class="footer-p">© 2022 Компания</p>
+                </div>
+                <div class="footer__flex-center">
+                    <p class="footer-p">Все права защищены.</p>
+                </div>
+                <div class="footer__flex-right">
+                    <p class="footer-p">Разработано лучшей студией программирования :)</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <h4>Заголовок</h4>
+            <p>Текст</p>
+        </div>
+    </div>
+    <script src="js/purecounter.js"></script>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+</body>
+
+</html>
